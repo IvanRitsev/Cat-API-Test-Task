@@ -1,0 +1,79 @@
+.cat-detail-page {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.detail-box {
+    display: flex;
+    flex-direction: column;
+
+    .cat-name {
+        font-size: 35px;
+        font-weight: 900;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .cat-more-info {
+        margin-left: 50px;
+
+        .info-item {
+            font-size: 23px;
+
+            span {
+                font-size: 24px;
+                font-weight: 600;
+                color: #8d3222;
+            }
+        }
+
+        .wikipedia-link {
+            font-size: 23px;
+            color: #8d3222;
+        }
+    }
+}
+
+.cat-box {
+    display: flex;
+    padding-inline: 25px;
+    margin-bottom: 25px;
+
+    @media (max-width: 742px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-block {
+        @media (max-width: 742px) {
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 400px;
+            object-fit: contain;
+            top: 0;
+            position: relative;
+
+            @media (max-width: 742px) {
+                width: 100%;
+            }
+        }
+    }
+
+
+    .cat-info {
+        margin-left: 25px;
+
+        .alt-names {
+            font-size: 25px;
+            padding-left: 20px;
+            line-height: 2;
+            font-weight: 600;
+        }
+
+        .description {
+            font-size: 23px;
+        }
+    }
+}

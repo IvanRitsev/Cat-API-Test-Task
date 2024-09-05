@@ -1,0 +1,31 @@
+@use '../global' as *;
+
+.pagination {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 13px;
+
+    button {
+        padding: 10px 20px;
+        box-shadow: 0 5px 11px 0 rgba(21, 21, 21, 0.36);
+        border: none;
+        border-radius: 20px;
+        color: black;
+        font-weight: 700;
+        font-size: 28px;
+        background-color: $submain-lightgray;
+        transition: .2s linear;
+
+       &:hover {
+        background-color: #c3c3c3;
+       }
+    }
+
+    .active {
+        background-color: $main-brown;
+        color: #fff;
+    }
+}

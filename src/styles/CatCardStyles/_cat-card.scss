@@ -1,0 +1,105 @@
+ .cat-card {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 20px;
+     width: 350px;
+     background-color: #f0f0f0;
+     border-radius: 15px;
+     height: 550px;
+     transition: .3s ease;
+     cursor: pointer;
+
+     &:hover {
+         transform: translateY(-5px);
+         box-shadow: -5px -5px 15px rgb(232 232 232 / 50%),
+             5px 5px 15px rgb(36 36 36 / 24%);
+     }
+
+     .button-container {
+         display: flex;
+         justify-content: space-between;
+         width: 100px;
+         align-self: flex-end;
+
+
+         button {
+             border-radius: 999px;
+             padding: 5px;
+             position: relative;
+             width: 45px;
+             height: 45px;
+             border: none;
+             transition: all .3s ease;
+             cursor: pointer;
+
+             svg {
+                 position: absolute;
+                 top: 50%;
+                 left: 50%;
+                 transform: translate(-50%, -50%);
+                 transition: all .3s ease;
+             }
+         }
+
+         .remove-button {
+             background-color: rgb(44, 44, 44);
+
+             &:hover {
+                 background-color: rgb(120, 120, 120);
+                 filter: drop-shadow(0 0 4px #6d6d6d);
+             }
+
+         }
+
+         .like-button {
+             background-color: rgb(209, 209, 209);
+             border: 1px solid rgb(135, 135, 135);
+
+             &:hover {
+                 background-color: rgb(211, 88, 88);
+                 filter: drop-shadow(0 0 4px #ffc0c0);
+             }
+
+             svg {
+                top: 54%;
+                left: 51%;
+             }
+         }
+
+         .liked {
+             svg {
+                 path {
+                     fill: white;
+                 }
+             }
+
+             background-color: rgb(183, 37, 37);
+             filter: drop-shadow(0 0 4px #ff6464);
+         }
+     }
+
+     h3 {
+         font-size: 30px;
+         text-align: center;
+         margin-bottom: 15px;
+     }
+
+     p {
+         display: -webkit-box;
+         -webkit-box-orient: vertical;
+         -webkit-line-clamp: 3;
+         line-clamp: 3;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         margin-bottom: 20px;
+     }
+
+     img {
+         width: 100%;
+         object-fit: cover;
+         height: 300px;
+         border-radius: 15px;
+         margin-bottom: 20px;
+     }
+ }

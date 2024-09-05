@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+@mixin button-base {
+    background-color: #dedede;
+    color: #333333;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease all;
+
+    &:hover {
+        color: #1b1b1b;
+        box-shadow: -3px -3px 10px rgb(232 232 232 / 50%),
+                3px 3px 10px rgb(36 36 36 / 24%);
+    }
+}
+
+.return-button {
+    @include button-base;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 25px;
+    padding: 7px;
+    border-radius: 999px;
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+
+    svg {
+        width: 35px;
+        margin-right: 10px;
+    }
+}
+
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity .3s ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity .3s ease-out;
+}

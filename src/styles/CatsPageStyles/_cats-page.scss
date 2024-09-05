@@ -1,0 +1,46 @@
+@use '../global' as *;
+
+.cats-page {
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 50px;
+    padding-inline: 50px;
+}
+
+.liked-cats-undefind {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-size: 40px;
+    color: gray;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    svg {
+        width: 100px; 
+        height: 100px;
+        animation: spin 2s linear infinite;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

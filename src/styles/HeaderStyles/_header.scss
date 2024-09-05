@@ -1,0 +1,49 @@
+@use "../global" as *;
+
+.header {
+    width: 100%;
+    background: $submain-lightgray;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    .logo {
+        padding: 15px;
+
+        a {
+            text-decoration: none;
+            font-size: 36px;
+            font-weight: 900;
+            color: $main-brown;
+        }
+    }
+
+    .navbar {
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        a {
+            font-size: 25px;
+            font-weight: 600;
+            color: #252525;
+            text-decoration: none;
+            transition: all .3s;
+
+            &:hover {
+                color: $main-brown;
+                transition: all .3s;
+            }
+        }
+
+        .link-active {
+            color: $main-brown;
+            cursor: initial;
+        }
+    }
+}
