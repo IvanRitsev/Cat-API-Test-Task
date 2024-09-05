@@ -2,7 +2,7 @@
   "name": "alfa-test-task-v1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://IvanRitsev.github.io/Cat-API-Test-Task",
+  "homepage": "https://ivanritsev.github.io/Cat-API-Test-Task",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "@testing-library/jest-dom": "^5.17.0",
