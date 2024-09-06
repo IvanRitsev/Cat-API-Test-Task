@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCustomDispatch, useCustomSelector } from '../hooks/store';
+import { useCustomDispatch } from '../hooks/store';
 import { setFilter } from '../store/slices/CatSlice';
 
 interface CatsFilterProps {

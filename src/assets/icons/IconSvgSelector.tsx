@@ -1,5 +1,4 @@
 import React from 'react';
-import { deflate } from 'zlib';
 
 interface Props {
     id: string;
