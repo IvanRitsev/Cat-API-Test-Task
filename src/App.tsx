@@ -16,10 +16,10 @@ const App: React.FC = () => {
         <CSSTransition key={location.pathname} classNames='fade' timeout={300} unmountOnExit>
           <Suspense fallback={<div className='loading'><IconSvgSelector id='loading-spinner'/></div>}>
             <Routes location={location}>
-              <Route path='/Cat-API-Test-Task/products' element={<CatsPage />} />
-              <Route path='/Cat-API-Test-Task/products/:name' element={<CatDetailPage />} />
-              <Route path="/Cat-API-Test-Task/create-product" element={<CreateProduct />} />
-              <Route path='/Cat-API-Test-Task/' element={<CatsPage />} />
+              <Route path='/products' element={<CatsPage />} />
+              <Route path='/products/:name' element={<CatDetailPage />} />
+              <Route path="/create-product" element={<CreateProduct />} />
+              <Route path='/' element={<CatsPage />} />
             </Routes>
           </Suspense>
         </CSSTransition>
