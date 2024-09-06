@@ -13,7 +13,7 @@ const root = createRoot(
 root.render(
     <StrictMode>
         <Provider store={store}>
-            <BrowserRouter>
+            <BrowserRouter basename="/Cat-API-Test-Task">
                 <Header />
                  <App />
             </BrowserRouter>
