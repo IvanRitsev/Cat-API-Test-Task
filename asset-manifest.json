@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Cat-API-Test-Task/static/css/main.551af11d.css",
-    "main.js": "/Cat-API-Test-Task/static/js/main.8d28d981.js",
+    "main.js": "/Cat-API-Test-Task/static/js/main.b15b14f9.js",
     "static/js/350.fb994f0e.chunk.js": "/Cat-API-Test-Task/static/js/350.fb994f0e.chunk.js",
     "static/js/637.2d689a19.chunk.js": "/Cat-API-Test-Task/static/js/637.2d689a19.chunk.js",
     "static/js/995.2fe2854d.chunk.js": "/Cat-API-Test-Task/static/js/995.2fe2854d.chunk.js",
     "static/js/213.ffa5a705.chunk.js": "/Cat-API-Test-Task/static/js/213.ffa5a705.chunk.js",
     "index.html": "/Cat-API-Test-Task/index.html",
     "main.551af11d.css.map": "/Cat-API-Test-Task/static/css/main.551af11d.css.map",
-    "main.8d28d981.js.map": "/Cat-API-Test-Task/static/js/main.8d28d981.js.map",
+    "main.b15b14f9.js.map": "/Cat-API-Test-Task/static/js/main.b15b14f9.js.map",
     "350.fb994f0e.chunk.js.map": "/Cat-API-Test-Task/static/js/350.fb994f0e.chunk.js.map",
     "637.2d689a19.chunk.js.map": "/Cat-API-Test-Task/static/js/637.2d689a19.chunk.js.map",
     "995.2fe2854d.chunk.js.map": "/Cat-API-Test-Task/static/js/995.2fe2854d.chunk.js.map",
@@ -16,6 +16,6 @@
   },
   "entrypoints": [
     "static/css/main.551af11d.css",
-    "static/js/main.8d28d981.js"
+    "static/js/main.b15b14f9.js"
   ]
 }
